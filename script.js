@@ -13,7 +13,7 @@ function createHeart() {
 setInterval(createHeart, 300);
 
 document.addEventListener("DOMContentLoaded", () => {
-    const img = document.querySelector(".manda-img");
+    const img = document.querySelector(".myl-img");
     img.addEventListener("click", () => {
         img.classList.add("clicked");
         setTimeout(() => img.classList.remove("clicked"), 600);
